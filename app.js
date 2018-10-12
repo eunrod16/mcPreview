@@ -1,0 +1,42 @@
+var app = new Vue({
+  el: '#app',
+  data: {
+    selected: 'A',
+    restaurantes: [
+      { text: 'Zona 1', value: '01', orientation:'H' },
+      { text: 'Zona 9', value: '02', orientation:'H' },
+      { text: 'Utatlan', value: '03', orientation:'V' },
+      { text: 'Zona 4', value: '04', orientation:'V' },
+      { text: 'Metrosur', value: '05', orientation:'H' },
+      { text: 'Montserrat', value: '06', orientation:'V' },
+      { text: 'Proceres 1', value: '07', orientation:'H' },
+      { text: 'Tikalito', value: '08', orientation:'H' },
+      { text: 'Petapa', value: '09', orientation:'H' },
+      { text: '18 Calle', value: '10', orientation:'H' },
+      { text: 'Gomez Carrillo', value: '11', orientation:'H' },
+      { text: 'Pradera Zona 10', value: '12', orientation:'H' },
+      { text: 'Florida', value: '13', orientation:'H' },
+      { text: 'Hospitales', value: '14', orientation:'H' },
+      { text: 'Hiper Paiz', value: '13', orientation:'H' },
+      { text: 'Catedral', value: '16', orientation:'H' },
+      { text: 'Escuintla', value: '17', orientation:'H' },
+      { text: 'Tikal Futura', value: '18', orientation:'H' },
+      { text: 'Metronorte', value: '19', orientation:'H' },
+      { text: 'Calle Marti', value: '20', orientation:'V' },
+      { text: 'San Cristobal', value: '21', orientation:'V' },
+      { text: 'Tivoli', value: '22', orientation:'H' },
+      { text: 'Puerta Parada', value: '23', orientation:'H' },
+      { text: 'Aguilar Batres', value: '24', orientation:'H' },
+      { text: 'Xela Montblack', value: '25', orientation:'H' },
+      { text: 'Villa Nueva', value: '27', orientation:'H' },
+      { text: 'Xela Centro', value: '28', orientation:'H' },
+      { text: 'Atlantico', value: '29', orientation:'V' },
+      { text: 'Barcenas', value: '30', orientation:'H' },
+      { text: 'Américas', value: '31', orientation:'H' },
+      { text: 'Zona 5', value: '32', orientation:'H' },
+      { text: 'Vista Hermosa', value: '33', orientation:'H' },
+      { text: 'Mazatenango', value: '34', orientation:'H' },
+
+    ]
+  }
+});
