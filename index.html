@@ -78,7 +78,7 @@
 							<iframe class="myframe" id="P1"  v-bind:src="'P1AGT-V518/index.html'"></iframe>
 						</div>
 						<button type="button" id="P1btn" class="btn btn-default btn-circle btn-lg"><i class="fa fa-camera"></i></button>
-						<a class="fancy" src="https://gt.mcd.switchboardcms.com/file/productosV518/quesoburguesaDoble.png">This goes to iframe</a>
+						<a class="fancy" :href="'https://gt.mcd.switchboardcms.com/local/GT43/content/P1'+selected+'GT-V518.zip/'">This goes to iframe</a>
 					</div>
 					<div class="col-md-4 center">
 						<div class="wrap" >
@@ -197,7 +197,13 @@ document.getElementById('download').addEventListener('click', function() {
 */
 
 $(".fancy").fancybox({
-	'type'				: 'iframe'
+	'width'				: '75%',
+'height'			: '75%',
+'autoScale'			: true,
+'transitionIn'		: 'none',
+'transitionOut'		: 'none',
+'type'				: 'iframe',
+'autoDimensions' : false
 
 });
 
